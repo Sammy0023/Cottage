@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cottage"
+    tools:context=".CottageActivity">
+
+    <TextView
+        android:id="@+id/cottageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="@string/app_name"
+        android:textColor="#03A9F4"
+        android:textSize="54sp"
+        app:layout_constraintBottom_toTopOf="@+id/informationButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/photosButton"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_button_first"
+        android:fontFamily="@font/archivo_black"
+        android:gravity="center"
+        android:text="Photos"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/factsButton" />
+
+    <TextView
+        android:id="@+id/informationButton"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/bg_button"
+        android:fontFamily="@font/archivo_black"
+        android:gravity="center"
+        android:text="Information"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/factsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/factsButton"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/bg_textview"
+        android:fontFamily="@font/archivo_black"
+        android:gravity="center"
+        android:text="Facts"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

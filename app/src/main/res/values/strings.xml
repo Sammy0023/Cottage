@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Cottage</string>
+    <string name="cottage">A cottage is a small, cozy dwelling, typically located in a rural or semi-rural setting. It is often associated with a simple and rustic aesthetic, offering a retreat or vacation home for individuals or families. Cottages are commonly found in countries like England, Ireland, Scotland, and Canada, where they hold cultural and historical significance.</string>
+    <string name="facts">Origin: The term cottage originates from the medieval period when peasants and laborers lived in small, modest houses called cotters. These cotters were often located on the lands of a lord or manor. Traditional Design: Cottages typically feature a charming and quaint design, with elements such as thatched roofs, exposed beams, stone or brick walls, and small windows. These architectural features add to their cozy and picturesque appeal.</string>
 </resources>
